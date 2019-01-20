@@ -1,0 +1,71 @@
+.container-fluid {
+  display: grid;
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+  font-family: Montserrat;
+
+}
+
+.fixed-top {
+  position:fixed;
+  width:100%;
+  opacity: 0.9;
+}
+
+
+.right-nav {
+  display: flex;
+  padding: 20px;
+  justify-content:flex-end;
+  overflow: hidden;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  padding: 30px;
+  font-size: 15px;
+}
+
+.navbar a:hover {
+  background-color: white;
+  color:black;
+  opacity: 0.5;
+}
+
+.jumbotron-fluid {
+  background-image:url("code.jpeg");
+  height:500px;
+  width: 100;
+  display: flex;
+  align-items: center;
+  margin-top:-20px;
+}
+
+.jumbotron-fluid p {
+text-align: center;
+}
+
+.btn-primary {
+  height:30px;
+  width:100px;
+
+}
+.jumbotron-fluid h1 {
+  color: white;
+  align-self: center;
+  padding-left:30%;
+}
+
+
+.Portfolio img {
+  display:block;
+  width: 400px;
+  height:400px;
+  margin: 50px auto;
+  border: 2px solid #021a40;
+  background-color: #fff;
+}
