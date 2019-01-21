@@ -49,15 +49,34 @@
 text-align: center;
 }
 
-.btn-primary {
-  height:30px;
-  width:100px;
-
-}
 .jumbotron-fluid h1 {
   color: white;
   align-self: center;
-  padding-left:30%;
+  margin-left:auto;
+  margin-right:auto;
+  font-family: Montserrat;
+}
+
+.Portfolio h1 {
+  display:block;
+  margin-left:530px;
+  text-decoration: underline;
+  opacity: 0.7;
+}
+
+#html-head {
+  display:block;
+  margin-top: -35px;
+  margin-left: 220px;
+  text-decoration:underline;
+}
+
+#java-head {
+  display:block;
+  margin-top: -35px;
+  margin-left: 160px;
+  text-decoration:underline;
+
 }
 
 
@@ -66,6 +85,7 @@ text-align: center;
   width: 400px;
   height:400px;
   margin: 50px auto;
-  border: 2px solid #021a40;
+  border: 2px solid #aba2a1;
+  border-radius:50px;
   background-color: #fff;
 }
